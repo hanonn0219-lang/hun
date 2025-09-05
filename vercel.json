@@ -3,5 +3,8 @@
     "api/**/*.js": {
       "runtime": "nodejs20.x"
     }
-  }
+  },
+  "routes": [
+    { "src": "/api/hello", "dest": "api/hello.js" }
+  ]
 }
